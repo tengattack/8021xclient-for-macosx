@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A45EC7BC1654C96800433AA1 /* auth.c in Sources */ = {isa = PBXBuildFile; fileRef = A45EC7B41654C96800433AA1 /* auth.c */; };
+		A45EC7BD1654C96800433AA1 /* fillmd5.c in Sources */ = {isa = PBXBuildFile; fileRef = A45EC7B61654C96800433AA1 /* fillmd5.c */; };
+		A45EC7BE1654C96800433AA1 /* ip.c in Sources */ = {isa = PBXBuildFile; fileRef = A45EC7B71654C96800433AA1 /* ip.c */; };
+		A45EC7BF1654C96800433AA1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A45EC7B81654C96800433AA1 /* main.c */; };
+		A45EC7C11654C96800433AA1 /* njit8021xclient.c in Sources */ = {isa = PBXBuildFile; fileRef = A45EC7BA1654C96800433AA1 /* njit8021xclient.c */; };
+		A45EC7C31654CAA200433AA1 /* getMACaddress.c in Sources */ = {isa = PBXBuildFile; fileRef = A45EC7C21654CAA200433AA1 /* getMACaddress.c */; };
+		A45EC7CD1654CD5C00433AA1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45EC7CC1654CD5C00433AA1 /* IOKit.framework */; };
+		A45EC7D41654CF7900433AA1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45EC7D31654CF7900433AA1 /* CoreFoundation.framework */; };
+		A45EC7D61654CF8900433AA1 /* libpcap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A45EC7D51654CF8900433AA1 /* libpcap.dylib */; };
+		A4CA7D8716553AF300EBD204 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = A4CA7D8616553AF300EBD204 /* md5.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A45EC7A51654C86B00433AA1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A45EC7A71654C86B00433AA1 /* xclient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xclient; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45EC7B41654C96800433AA1 /* auth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = auth.c; sourceTree = "<group>"; };
+		A45EC7B51654C96800433AA1 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		A45EC7B61654C96800433AA1 /* fillmd5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fillmd5.c; sourceTree = "<group>"; };
+		A45EC7B71654C96800433AA1 /* ip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ip.c; sourceTree = "<group>"; };
+		A45EC7B81654C96800433AA1 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A45EC7BA1654C96800433AA1 /* njit8021xclient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = njit8021xclient.c; sourceTree = "<group>"; };
+		A45EC7BB1654C96800433AA1 /* njit8021xclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = njit8021xclient.h; sourceTree = "<group>"; };
+		A45EC7C21654CAA200433AA1 /* getMACaddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getMACaddress.c; sourceTree = "<group>"; };
+		A45EC7CC1654CD5C00433AA1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		A45EC7D31654CF7900433AA1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A45EC7D51654CF8900433AA1 /* libpcap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpcap.dylib; path = usr/lib/libpcap.dylib; sourceTree = SDKROOT; };
+		A4CA7D851655361400EBD204 /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		A4CA7D8616553AF300EBD204 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A45EC7A41654C86B00433AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45EC7D61654CF8900433AA1 /* libpcap.dylib in Frameworks */,
+				A45EC7D41654CF7900433AA1 /* CoreFoundation.framework in Frameworks */,
+				A45EC7CD1654CD5C00433AA1 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A45EC79C1654C86B00433AA1 = {
+			isa = PBXGroup;
+			children = (
+				A45EC7D71654CF9100433AA1 /* library */,
+				A45EC7AA1654C86B00433AA1 /* xclient */,
+				A45EC7A81654C86B00433AA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A45EC7A81654C86B00433AA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45EC7A71654C86B00433AA1 /* xclient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A45EC7AA1654C86B00433AA1 /* xclient */ = {
+			isa = PBXGroup;
+			children = (
+				A4CA7D8616553AF300EBD204 /* md5.c */,
+				A4CA7D851655361400EBD204 /* md5.h */,
+				A45EC7C21654CAA200433AA1 /* getMACaddress.c */,
+				A45EC7B41654C96800433AA1 /* auth.c */,
+				A45EC7B51654C96800433AA1 /* debug.h */,
+				A45EC7B61654C96800433AA1 /* fillmd5.c */,
+				A45EC7B71654C96800433AA1 /* ip.c */,
+				A45EC7B81654C96800433AA1 /* main.c */,
+				A45EC7BA1654C96800433AA1 /* njit8021xclient.c */,
+				A45EC7BB1654C96800433AA1 /* njit8021xclient.h */,
+			);
+			path = xclient;
+			sourceTree = "<group>";
+		};
+		A45EC7D71654CF9100433AA1 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				A45EC7D51654CF8900433AA1 /* libpcap.dylib */,
+				A45EC7D31654CF7900433AA1 /* CoreFoundation.framework */,
+				A45EC7CC1654CD5C00433AA1 /* IOKit.framework */,
+			);
+			name = library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A45EC7A61654C86B00433AA1 /* xclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45EC7B11654C86B00433AA1 /* Build configuration list for PBXNativeTarget "xclient" */;
+			buildPhases = (
+				A45EC7A31654C86B00433AA1 /* Sources */,
+				A45EC7A41654C86B00433AA1 /* Frameworks */,
+				A45EC7A51654C86B00433AA1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xclient;
+			productName = xclient;
+			productReference = A45EC7A71654C86B00433AA1 /* xclient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A45EC79E1654C86B00433AA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = tengattack;
+			};
+			buildConfigurationList = A45EC7A11654C86B00433AA1 /* Build configuration list for PBXProject "xclient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A45EC79C1654C86B00433AA1;
+			productRefGroup = A45EC7A81654C86B00433AA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A45EC7A61654C86B00433AA1 /* xclient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A45EC7A31654C86B00433AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45EC7BC1654C96800433AA1 /* auth.c in Sources */,
+				A45EC7BD1654C96800433AA1 /* fillmd5.c in Sources */,
+				A45EC7BE1654C96800433AA1 /* ip.c in Sources */,
+				A45EC7BF1654C96800433AA1 /* main.c in Sources */,
+				A45EC7C11654C96800433AA1 /* njit8021xclient.c in Sources */,
+				A45EC7C31654CAA200433AA1 /* getMACaddress.c in Sources */,
+				A4CA7D8716553AF300EBD204 /* md5.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A45EC7AF1654C86B00433AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A45EC7B01654C86B00433AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A45EC7B21654C86B00433AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A45EC7B31654C86B00433AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A45EC7A11654C86B00433AA1 /* Build configuration list for PBXProject "xclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45EC7AF1654C86B00433AA1 /* Debug */,
+				A45EC7B01654C86B00433AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45EC7B11654C86B00433AA1 /* Build configuration list for PBXNativeTarget "xclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45EC7B21654C86B00433AA1 /* Debug */,
+				A45EC7B31654C86B00433AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A45EC79E1654C86B00433AA1 /* Project object */;
+}
