@@ -3,6 +3,9 @@
 my blog
 http://tengattack.com/
 
+download
+https://github.com/tengattack/8021xclient-for-macosx/raw/master/DerivedData/xclient/Build/Products/Release/xclient
+
 why
 we all hate iNode
 
